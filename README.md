@@ -11,12 +11,12 @@ Each feature listed on the page has a dynamic route that provides more detailed 
 - **Responsive Design**: The landing page is fully responsive and works well across different screen sizes.
 - **Dynamic Routes**: Each feature on the landing page links to a dynamically generated route that displays detailed content for that specific feature.
 
-## Sections
+## Contentfull content modal
 
-- **Navigation**: The top navigation bar provides links to different sections of the landing page.
-- **Hero Section**: The introductory section with a prominent headline and call-to-action.
-- **Partner Companies**: A showcase of partner companies or collaborators.
-- **Features**: A list of key features, each linking to a dynamically generated route with detailed content.
+- **Navbar**: logoname(text) and logoImage(media)
+- **Hero Section**: VideoUrl
+- **Partner Companies**: companyName(text), companyImage(media)
+- **Features**: id(integer), title(text), description(longText), media(image)
 
 ## Installation
 
