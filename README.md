@@ -27,3 +27,22 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3.Set up Contentful:
+   Create a .env.local file in the root of your project.
+   Add your Contentful space ID and access token:
+
+  CONTENTFUL_SPACE_ID=your_space_id
+  CONTENTFUL_ACCESS_TOKEN=your_access_token
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+
+Open http://localhost:3000 with your browser to see the result.
